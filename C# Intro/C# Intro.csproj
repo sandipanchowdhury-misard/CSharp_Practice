@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Strings</StartupObject>
+    <StartupObject>MethodsWithParametersAndReturnType</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,14 @@
     <Compile Include="Chapter_1\1.Program.cs" />
     <Compile Include="Chapter_1\3.Var&amp;Dynamic.cs" />
     <Compile Include="Chapter_1\4.Strings.cs" />
+    <Compile Include="Chapter_1\Arrays.cs" />
+    <Compile Include="Chapter_1\CategoriesOfDataTypes.cs" />
+    <Compile Include="Chapter_1\Methods.cs" />
+    <Compile Include="Chapter_1\MethodsWithParametersAndReturnType.cs" />
+    <Compile Include="Chapter_1\MethodsWithReturnType.cs" />
+    <Compile Include="Chapter_1\Operators.cs" />
+    <Compile Include="Chapter_1\TypeCovertion.cs" />
+    <Compile Include="Chapter_1\MethodeWithParameters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
