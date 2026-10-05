@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{92A10B1D-6F93-4928-B636-72FD8DA43FFC}</ProjectGuid>
+    <ProjectGuid>{9DD85926-8F54-1F47-BCB0-6C0A03C1E29F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>C__Intro</RootNamespace>
     <AssemblyName>C# Intro</AssemblyName>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
+    <StartupObject>FileDetails</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
     <StartupObject>MethodsWithParametersAndReturnType</StartupObject>
   </PropertyGroup>
   <ItemGroup>
@@ -46,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="02.Second_Step\FieldsBasics.cs" />
     <Compile Include="Chapter_1\2.DataTypes.cs" />
     <Compile Include="Chapter_1\1.Program.cs" />
     <Compile Include="Chapter_1\3.Var&amp;Dynamic.cs" />
@@ -61,7 +65,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="02.Second_Step\Class.md" />
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
