@@ -36,7 +36,7 @@
     <StartupObject>FileDetails</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MethodsWithParametersAndReturnType</StartupObject>
+    <StartupObject>FileDetails</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,7 +51,6 @@
   <ItemGroup>
     <Compile Include="02.Second_Step\FieldsBasics.cs" />
     <Compile Include="Chapter_1\2.DataTypes.cs" />
-    <Compile Include="Chapter_1\1.Program.cs" />
     <Compile Include="Chapter_1\3.Var&amp;Dynamic.cs" />
     <Compile Include="Chapter_1\4.Strings.cs" />
     <Compile Include="Chapter_1\Arrays.cs" />
